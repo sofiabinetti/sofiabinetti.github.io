@@ -1778,6 +1778,11 @@ input, select, textarea {
 		  height: 100%;
 		  left: calc(50% - 3px);
 		}
+		.timeline-entry.row .col-2.mid-right::after {
+		  height: 50%;
+		  left: calc(50% - 3px);
+			top: 0;
+		}
 		.timeline-entry.row .col-2.full-left::after {
 		  height: 100%;
 		  left: 50%;
